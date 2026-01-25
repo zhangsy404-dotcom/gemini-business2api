@@ -218,22 +218,25 @@
               <p class="text-xs text-muted-foreground">账号 ID</p>
               <p class="mt-1 font-mono text-xs text-foreground">{{ account.id }}</p>
             </div>
-            <div class="flex items-center gap-2">
-              <Checkbox
-                :modelValue="selectedIds.has(account.id)"
-                @update:modelValue="toggleSelect(account.id)"
-                @click.stop
-              />
-              <span
-                class="inline-flex items-center rounded-full border border-border px-3 py-1 text-xs"
-                :class="statusClass(account)"
-              >
-                {{ statusLabel(account) }}
-              </span>
-            </div>
+            <Checkbox
+              :modelValue="selectedIds.has(account.id)"
+              @update:modelValue="toggleSelect(account.id)"
+              @click.stop
+            />
           </div>
 
           <div class="mt-4 grid grid-cols-2 gap-3 text-xs text-muted-foreground">
+            <div>
+              <p>状态</p>
+              <p class="mt-1 text-sm font-semibold text-foreground">
+                <span
+                  class="inline-flex items-center rounded-full border border-border px-2 py-0.5 text-xs"
+                  :class="statusClass(account)"
+                >
+                  {{ statusLabel(account) }}
+                </span>
+              </p>
+            </div>
             <div>
               <p>剩余时间</p>
               <p class="mt-1 text-sm font-semibold" :class="remainingClass(account)">
@@ -242,6 +245,13 @@
               <p v-if="account.expires_at" class="mt-1 text-[11px]">
                 {{ account.expires_at }}
               </p>
+            </div>
+            <div>
+              <p>配额</p>
+              <div class="mt-1">
+                <QuotaBadge v-if="account.quota_status" :quota-status="account.quota_status" />
+                <span v-else class="text-xs text-muted-foreground">-</span>
+              </div>
             </div>
             <div>
               <p>冷却</p>
