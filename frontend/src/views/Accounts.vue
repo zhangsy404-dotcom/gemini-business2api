@@ -272,8 +272,22 @@
             </div>
             <div>
               <p>冷却</p>
-              <p class="mt-1" :class="cooldownClass(account)">
-                {{ cooldownDisplay(account) }}
+              <p class="mt-1 flex items-center gap-1" :class="cooldownClass(account)">
+                <template v-if="cooldownDisplay(account) === 'normal'">
+                  <svg class="h-3.5 w-3.5 text-emerald-500" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                  </svg>
+                  <span>正常</span>
+                </template>
+                <template v-else-if="cooldownDisplay(account) === 'disabled'">
+                  <svg class="h-3.5 w-3.5 text-muted-foreground" viewBox="0 0 20 20" fill="currentColor">
+                    <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
+                  </svg>
+                  <span>手动禁用</span>
+                </template>
+                <template v-else>
+                  {{ cooldownDisplay(account) }}
+                </template>
               </p>
             </div>
             <div>
@@ -392,7 +406,23 @@
                 <span v-else class="text-xs text-muted-foreground">-</span>
               </td>
               <td class="py-4 pr-6 text-xs" :class="cooldownClass(account)">
-                {{ cooldownDisplay(account) }}
+                <span class="flex items-center gap-1">
+                  <template v-if="cooldownDisplay(account) === 'normal'">
+                    <svg class="h-3.5 w-3.5 text-emerald-500" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                    </svg>
+                    <span>正常</span>
+                  </template>
+                  <template v-else-if="cooldownDisplay(account) === 'disabled'">
+                    <svg class="h-3.5 w-3.5 text-muted-foreground" viewBox="0 0 20 20" fill="currentColor">
+                      <path fill-rule="evenodd" d="M13.477 14.89A6 6 0 015.11 6.524l8.367 8.368zm1.414-1.414L6.524 5.11a6 6 0 018.367 8.367zM18 10a8 8 0 11-16 0 8 8 0 0116 0z" clip-rule="evenodd" />
+                    </svg>
+                    <span>手动禁用</span>
+                  </template>
+                  <template v-else>
+                    {{ cooldownDisplay(account) }}
+                  </template>
+                </span>
               </td>
               <td class="py-4 pr-6 text-xs text-muted-foreground">
                 {{ account.failure_count }}
@@ -553,7 +583,12 @@
           </div>
 
           <div class="rounded-2xl border border-rose-200 bg-rose-50 px-3 py-2 text-[11px] leading-relaxed">
-            <p class="text-xs font-bold text-rose-600">⚠️ 严禁滥用：禁止将本工具用于商业用途或任何形式的滥用（无论规模大小）</p>
+            <p class="flex items-center gap-1.5 text-xs font-bold text-rose-600">
+              <svg class="h-4 w-4 flex-shrink-0" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd" />
+              </svg>
+              严禁滥用：禁止将本工具用于商业用途或任何形式的滥用（无论规模大小）
+            </p>
             <p class="mt-1 text-muted-foreground">详细声明请查看项目 <a href="https://github.com/Dreamy-rain/gemini-business2api/blob/main/docs/DISCLAIMER.md" target="_blank" class="text-primary hover:underline font-medium">DISCLAIMER.md</a></p>
           </div>
           <Checkbox v-model="registerAgreed">
@@ -2275,11 +2310,11 @@ const cooldownDisplay = (account: AdminAccount) => {
 
   // 手动禁用
   if (account.disabled) {
-    return '⛔ 手动禁用'
+    return 'disabled'
   }
 
   // 正常可用
-  return '✅ 正常'
+  return 'normal'
 }
 
 const rowClass = (account: AdminAccount) => {
