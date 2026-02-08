@@ -140,18 +140,35 @@ class FreemailClient:
             self._log("info", f"📨 收到 {len(emails)} 封邮件，开始检查验证码...")
 
             from datetime import datetime
+            import re
 
             def _parse_email_time(email_obj) -> Optional[datetime]:
-                created_at = email_obj.get("created_at")
-                if created_at is None:
+                time_keys = (
+                    "created_at",
+                    "createdAt",
+                    "received_at",
+                    "receivedAt",
+                    "sent_at",
+                    "sentAt",
+                )
+
+                raw_time = None
+                for key in time_keys:
+                    if email_obj.get(key) is not None:
+                        raw_time = email_obj.get(key)
+                        break
+
+                if raw_time is None:
                     return None
-                if isinstance(created_at, (int, float)):
-                    timestamp = float(created_at)
+
+                if isinstance(raw_time, (int, float)):
+                    timestamp = float(raw_time)
                     if timestamp > 1e12:
                         timestamp = timestamp / 1000.0
                     return datetime.fromtimestamp(timestamp).astimezone().replace(tzinfo=None)
-                if isinstance(created_at, str):
-                    raw = created_at.strip()
+
+                if isinstance(raw_time, str):
+                    raw = raw_time.strip()
                     if not raw:
                         return None
                     if raw.isdigit():
@@ -159,10 +176,18 @@ class FreemailClient:
                         if timestamp > 1e12:
                             timestamp = timestamp / 1000.0
                         return datetime.fromtimestamp(timestamp).astimezone().replace(tzinfo=None)
+
+                    # 截断纳秒到微秒（fromisoformat 只支持6位小数）
+                    raw = re.sub(r"(\.\d{6})\d+", r"\1", raw)
+
                     try:
-                        return datetime.fromisoformat(raw.replace("Z", "+00:00")).astimezone().replace(tzinfo=None)
+                        parsed = datetime.fromisoformat(raw.replace("Z", "+00:00"))
+                        if parsed.tzinfo:
+                            return parsed.astimezone().replace(tzinfo=None)
+                        return parsed
                     except Exception:
                         return None
+
                 return None
 
             # 按时间倒序，优先检查最新邮件
@@ -176,7 +201,10 @@ class FreemailClient:
                 # 时间过滤
                 if since_time:
                     email_time = _parse_email_time(email_data)
-                    if email_time and email_time < since_time:
+                    if email_time is None:
+                        self._log("info", f"⏭️ 邮件 {idx} 缺少可解析时间，跳过以避免旧验证码")
+                        continue
+                    if email_time < since_time:
                         self._log("info", f"⏭️ 邮件 {idx} 时间过早，跳过")
                         continue
 
