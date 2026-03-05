@@ -1,0 +1,1873 @@
+allow-lan: false
+external-controller: 127.0.0.1:19089
+log-level: info
+mixed-port: 1789
+mode: global
+proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 剩余流量：195.51 GB
+  port: 29945
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 距离下次重置剩余：27 天
+  port: 29945
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 套餐到期：2026-09-29
+  port: 29945
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🏘️ 官方导航 hk-beup.com
+  port: 29945
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🛠️ 遇线路超时请更新订阅
+  port: 29945
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🛠️ 订阅超时官网重新导入
+  port: 29945
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 01
+  port: 29945
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 02
+  port: 29946
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 03
+  port: 29951
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 04
+  port: 29947
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 05
+  port: 29948
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 06
+  port: 52094
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 07
+  port: 51977
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 08
+  port: 10159
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 09
+  port: 22846
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰 香港｜Hong Kong 10
+  port: 24316
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本｜Japan 01
+  port: 47398
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本｜Japan 02
+  port: 27367
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本｜Japan 03
+  port: 52414
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本｜Japan 04
+  port: 16636
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本｜Japan ISP 05
+  port: 51961
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本｜Japan ISP 06
+  port: 55305
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本｜Japan ISP 07
+  port: 58736
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵 日本｜Japan ISP 08
+  port: 38635
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳 台湾｜Taiwan 01
+  port: 10038
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳 台湾｜Taiwan 02
+  port: 10039
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳 台湾｜Taiwan 03
+  port: 10040
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳 台湾｜Taiwan 04
+  port: 10041
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳 台湾｜Taiwan ISP 05
+  port: 18048
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳 台湾｜Taiwan ISP 06
+  port: 39763
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳 台湾｜Taiwan ISP 07
+  port: 41205
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇳 台湾｜Taiwan ISP 08
+  port: 43420
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国｜USA Premium 01
+  port: 32375
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国｜USA Premium 02
+  port: 32376
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国｜USA Premium 03
+  port: 32377
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国｜USA Premium 04
+  port: 32378
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国｜USA Premium 05
+  port: 27899
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国｜USA Premium 06
+  port: 45381
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国｜USA Premium 07
+  port: 37538
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇺🇸 美国｜USA Premium 08
+  port: 21839
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🎬 Emby 01 x 0.2
+  port: 12036
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🎬 Emby 02 x 0.2
+  port: 25454
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🎬 Emby 03 x 0.2
+  port: 35631
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🎬 Emby 04 x 0.2
+  port: 58387
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡｜Singapore 01
+  port: 27851
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡｜Singapore 02
+  port: 27852
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡｜Singapore 03
+  port: 27853
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡｜Singapore 04
+  port: 27854
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡｜Singapore 05
+  port: 50455
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡｜Singapore 06
+  port: 44830
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡｜Singapore 07
+  port: 37824
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇬 新加坡｜Singapore 08
+  port: 31286
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国｜Korea 01
+  port: 20289
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国｜Korea 02
+  port: 33815
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国｜Korea 03
+  port: 27734
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇷 韩国｜Korea 04
+  port: 22227
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇾 马来西亚｜Malaysia 01
+  port: 16430
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇾 马来西亚｜Malaysia 02
+  port: 55983
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇾 马来西亚｜Malaysia 03
+  port: 58895
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇾 马来西亚｜Malaysia 04
+  port: 32820
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇭 泰国｜Thailand 01
+  port: 40856
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇭 泰国｜Thailand 02
+  port: 41479
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇭 泰国｜Thailand 03
+  port: 32790
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇭 泰国｜Thailand 04
+  port: 35624
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇻🇳 越南｜Vietnam 01
+  port: 22268
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇻🇳 越南｜Vietnam 02
+  port: 51542
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇻🇳 越南｜Vietnam 03
+  port: 32388
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇻🇳 越南｜Vietnam 04
+  port: 44560
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇴 澳门｜Macau 01
+  port: 50281
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇴 澳门｜Macau 02
+  port: 10447
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇴 澳门｜Macau 03
+  port: 14461
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇴 澳门｜Macau 04
+  port: 23248
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇭 菲律宾｜Philippines 01
+  port: 20038
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇭 菲律宾｜Philippines 02
+  port: 51048
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇭 菲律宾｜Philippines 03
+  port: 57598
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇵🇭 菲律宾｜Philippines 04
+  port: 34436
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇧🇩 孟加拉｜Bangladesh
+  port: 62425
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇭 柬埔寨｜Cambodia
+  port: 35077
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇺 悉尼｜Sydney
+  port: 28242
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇺 墨尔本｜Melbourne
+  port: 10759
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇮🇳 印度｜India 01
+  port: 27389
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇮🇳 印度｜India 02
+  port: 10545
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇪 迪拜｜Dubai
+  port: 11749
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇮🇩 印尼｜Indonesia
+  port: 18752
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇧🇷 巴西｜Brazil 01
+  port: 39834
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇧🇷 巴西｜Brazil 02
+  port: 48707
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇬🇧 英国｜United Kingdom
+  port: 18483
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇫🇷 法国｜France
+  port: 42630
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇪 德国｜Germany
+  port: 10031
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇺 俄罗斯｜Russia
+  port: 40066
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇷 阿根廷｜Argentina
+  port: 41314
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇽 墨西哥｜Mexico 01
+  port: 34860
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇽 墨西哥｜Mexico 02
+  port: 44051
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦 加拿大｜Canada
+  port: 49308
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇦 多伦多｜Canada
+  port: 11531
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇮🇱 以色列｜Israel
+  port: 42154
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇪🇸 西班牙｜Spain
+  port: 11854
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇧🇪 比利时｜Belgium
+  port: 55192
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇮🇹 意大利｜Italy
+  port: 12238
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇹 奥地利｜Austria
+  port: 23831
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇺 匈牙利｜Hungary
+  port: 15019
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇰 马其顿｜Macedonia
+  port: 51007
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇱🇹 立陶宛｜Lithuania
+  port: 44073
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇷 土耳其｜Turkey
+  port: 51064
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇭 瑞士｜Switzerland
+  port: 41826
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇦 沙特｜Saudi Arabia
+  port: 22925
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇱 荷兰｜Netherlands
+  port: 44116
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇱 智利｜Chile 01
+  port: 16615
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇱 智利｜Chile 02
+  port: 17979
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇿 捷克｜Czech
+  port: 17371
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇸🇪 瑞典｜Sweden
+  port: 52438
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇿🇦 南非｜South Africa
+  port: 12949
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇩🇰 丹麦｜Denmark
+  port: 57791
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇬 多哥｜Togo
+  port: 10304
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇪🇬 埃及｜Egypt
+  port: 64361
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇮🇸 冰岛｜Iceland
+  port: 59289
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇴 挪威｜Norway
+  port: 17374
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇲🇦 卡萨布兰卡｜Morocco
+  port: 15116
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇦🇿 阿塞拜疆｜Azerbaijan
+  port: 16513
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇷🇴 罗马尼亚｜Romania
+  port: 31120
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.microsoft.com
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇳🇬 尼日利亚｜Nigeria
+  port: 25488
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇨🇴 哥伦比亚｜Colombia
+  port: 10990
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇿 哈萨克斯坦｜Kazakhstan
+  port: 35752
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇰🇬 吉尔吉斯斯坦｜Kyrgyzstan
+  port: 10056
+  reality-opts:
+    public-key: OgbAhQpciw6lM7etNl0Z6gPfJ7l0p_Oq8FGv2nDamh4
+    short-id: 8d26d7af
+  server: 6sttaqn37k8io46motir.hishis.cn
+  servername: www.python.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  udp: true
+  uuid: aab93982-7c9c-418c-a215-9d078177f531
+proxy-groups:
+- name: GLOBAL
+  proxies:
+  - DIRECT
+  - 剩余流量：195.51 GB
+  - 距离下次重置剩余：27 天
+  - 套餐到期：2026-09-29
+  - 🏘️ 官方导航 hk-beup.com
+  - 🛠️ 遇线路超时请更新订阅
+  - 🛠️ 订阅超时官网重新导入
+  - 🇭🇰 香港｜Hong Kong 01
+  - 🇭🇰 香港｜Hong Kong 02
+  - 🇭🇰 香港｜Hong Kong 03
+  - 🇭🇰 香港｜Hong Kong 04
+  - 🇭🇰 香港｜Hong Kong 05
+  - 🇭🇰 香港｜Hong Kong 06
+  - 🇭🇰 香港｜Hong Kong 07
+  - 🇭🇰 香港｜Hong Kong 08
+  - 🇭🇰 香港｜Hong Kong 09
+  - 🇭🇰 香港｜Hong Kong 10
+  - 🇯🇵 日本｜Japan 01
+  - 🇯🇵 日本｜Japan 02
+  - 🇯🇵 日本｜Japan 03
+  - 🇯🇵 日本｜Japan 04
+  - 🇯🇵 日本｜Japan ISP 05
+  - 🇯🇵 日本｜Japan ISP 06
+  - 🇯🇵 日本｜Japan ISP 07
+  - 🇯🇵 日本｜Japan ISP 08
+  - 🇨🇳 台湾｜Taiwan 01
+  - 🇨🇳 台湾｜Taiwan 02
+  - 🇨🇳 台湾｜Taiwan 03
+  - 🇨🇳 台湾｜Taiwan 04
+  - 🇨🇳 台湾｜Taiwan ISP 05
+  - 🇨🇳 台湾｜Taiwan ISP 06
+  - 🇨🇳 台湾｜Taiwan ISP 07
+  - 🇨🇳 台湾｜Taiwan ISP 08
+  - 🇺🇸 美国｜USA Premium 01
+  - 🇺🇸 美国｜USA Premium 02
+  - 🇺🇸 美国｜USA Premium 03
+  - 🇺🇸 美国｜USA Premium 04
+  - 🇺🇸 美国｜USA Premium 05
+  - 🇺🇸 美国｜USA Premium 06
+  - 🇺🇸 美国｜USA Premium 07
+  - 🇺🇸 美国｜USA Premium 08
+  - 🎬 Emby 01 x 0.2
+  - 🎬 Emby 02 x 0.2
+  - 🎬 Emby 03 x 0.2
+  - 🎬 Emby 04 x 0.2
+  - 🇸🇬 新加坡｜Singapore 01
+  - 🇸🇬 新加坡｜Singapore 02
+  - 🇸🇬 新加坡｜Singapore 03
+  - 🇸🇬 新加坡｜Singapore 04
+  - 🇸🇬 新加坡｜Singapore 05
+  - 🇸🇬 新加坡｜Singapore 06
+  - 🇸🇬 新加坡｜Singapore 07
+  - 🇸🇬 新加坡｜Singapore 08
+  - 🇰🇷 韩国｜Korea 01
+  - 🇰🇷 韩国｜Korea 02
+  - 🇰🇷 韩国｜Korea 03
+  - 🇰🇷 韩国｜Korea 04
+  - 🇲🇾 马来西亚｜Malaysia 01
+  - 🇲🇾 马来西亚｜Malaysia 02
+  - 🇲🇾 马来西亚｜Malaysia 03
+  - 🇲🇾 马来西亚｜Malaysia 04
+  - 🇹🇭 泰国｜Thailand 01
+  - 🇹🇭 泰国｜Thailand 02
+  - 🇹🇭 泰国｜Thailand 03
+  - 🇹🇭 泰国｜Thailand 04
+  - 🇻🇳 越南｜Vietnam 01
+  - 🇻🇳 越南｜Vietnam 02
+  - 🇻🇳 越南｜Vietnam 03
+  - 🇻🇳 越南｜Vietnam 04
+  - 🇲🇴 澳门｜Macau 01
+  - 🇲🇴 澳门｜Macau 02
+  - 🇲🇴 澳门｜Macau 03
+  - 🇲🇴 澳门｜Macau 04
+  - 🇵🇭 菲律宾｜Philippines 01
+  - 🇵🇭 菲律宾｜Philippines 02
+  - 🇵🇭 菲律宾｜Philippines 03
+  - 🇵🇭 菲律宾｜Philippines 04
+  - 🇧🇩 孟加拉｜Bangladesh
+  - 🇰🇭 柬埔寨｜Cambodia
+  - 🇦🇺 悉尼｜Sydney
+  - 🇦🇺 墨尔本｜Melbourne
+  - 🇮🇳 印度｜India 01
+  - 🇮🇳 印度｜India 02
+  - 🇦🇪 迪拜｜Dubai
+  - 🇮🇩 印尼｜Indonesia
+  - 🇧🇷 巴西｜Brazil 01
+  - 🇧🇷 巴西｜Brazil 02
+  - 🇬🇧 英国｜United Kingdom
+  - 🇫🇷 法国｜France
+  - 🇩🇪 德国｜Germany
+  - 🇷🇺 俄罗斯｜Russia
+  - 🇦🇷 阿根廷｜Argentina
+  - 🇲🇽 墨西哥｜Mexico 01
+  - 🇲🇽 墨西哥｜Mexico 02
+  - 🇨🇦 加拿大｜Canada
+  - 🇨🇦 多伦多｜Canada
+  - 🇮🇱 以色列｜Israel
+  - 🇪🇸 西班牙｜Spain
+  - 🇧🇪 比利时｜Belgium
+  - 🇮🇹 意大利｜Italy
+  - 🇦🇹 奥地利｜Austria
+  - 🇭🇺 匈牙利｜Hungary
+  - 🇲🇰 马其顿｜Macedonia
+  - 🇱🇹 立陶宛｜Lithuania
+  - 🇹🇷 土耳其｜Turkey
+  - 🇨🇭 瑞士｜Switzerland
+  - 🇸🇦 沙特｜Saudi Arabia
+  - 🇳🇱 荷兰｜Netherlands
+  - 🇨🇱 智利｜Chile 01
+  - 🇨🇱 智利｜Chile 02
+  - 🇨🇿 捷克｜Czech
+  - 🇸🇪 瑞典｜Sweden
+  - 🇿🇦 南非｜South Africa
+  - 🇩🇰 丹麦｜Denmark
+  - 🇹🇬 多哥｜Togo
+  - 🇪🇬 埃及｜Egypt
+  - 🇮🇸 冰岛｜Iceland
+  - 🇳🇴 挪威｜Norway
+  - 🇲🇦 卡萨布兰卡｜Morocco
+  - 🇦🇿 阿塞拜疆｜Azerbaijan
+  - 🇷🇴 罗马尼亚｜Romania
+  - 🇳🇬 尼日利亚｜Nigeria
+  - 🇨🇴 哥伦比亚｜Colombia
+  - 🇰🇿 哈萨克斯坦｜Kazakhstan
+  - 🇰🇬 吉尔吉斯斯坦｜Kyrgyzstan
+  type: select
+rules:
+- MATCH,GLOBAL

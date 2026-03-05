@@ -44,26 +44,9 @@
                   class="w-full rounded-2xl border border-input bg-background px-3 py-2 text-sm"
                   placeholder="自动检测或手动填写"
                 />
-                <div class="flex items-center justify-between gap-2 text-xs text-muted-foreground">
-                  <span>账户操作代理</span>
-                  <HelpTip text="用于注册/登录/刷新操作的代理，留空则禁用" />
+                <div class="mt-3 rounded-2xl bg-blue-500/10 border border-blue-500/20 p-3">
+                  <p class="text-xs text-blue-600 dark:text-blue-400">💡 代理设置已迁移到节点管理页面</p>
                 </div>
-                <input
-                  v-model="localSettings.basic.proxy_for_auth"
-                  type="text"
-                  class="w-full rounded-2xl border border-input bg-background px-3 py-2 text-sm"
-                  placeholder="http://127.0.0.1:7890 | no_proxy=localhost,127.0.0.1"
-                />
-                <div class="flex items-center justify-between gap-2 text-xs text-muted-foreground">
-                  <span>聊天操作代理</span>
-                  <HelpTip text="用于 JWT/会话/消息操作的代理，留空则禁用" />
-                </div>
-                <input
-                  v-model="localSettings.basic.proxy_for_chat"
-                  type="text"
-                  class="w-full rounded-2xl border border-input bg-background px-3 py-2 text-sm"
-                  placeholder="http://127.0.0.1:7890 | no_proxy=localhost,127.0.0.1"
-                />
               </div>
             </div>
 
@@ -99,12 +82,14 @@
             <div class="rounded-2xl border border-border bg-card p-4">
               <p class="text-xs uppercase tracking-[0.3em] text-muted-foreground">自动注册/刷新</p>
               <div class="mt-4 space-y-3">
-                <div class="flex items-center justify-between gap-2">
-                  <Checkbox v-model="localSettings.basic.browser_headless">
-                    无头浏览器
-                  </Checkbox>
-                  <HelpTip text="无头模式适用于服务器环境（如 Docker）。若注册/刷新失败，建议关闭。" />
+                <div class="flex items-center justify-between gap-2 text-xs text-muted-foreground">
+                  <span>浏览器模式</span>
+                  <HelpTip text="正常: 显示窗口；静默: 最小化到任务栏，不抢焦点；无头: 完全无窗口（服务器环境）" />
                 </div>
+                <SelectMenu
+                  v-model="localSettings.basic.browser_mode"
+                  :options="browserModeOptions"
+                />
                 <div class="flex items-center justify-between gap-2 text-xs text-muted-foreground">
                   <span>浏览器引擎</span>
                   <HelpTip text="UC: 支持无头/有头，但可能失败。DP: 支持无头/有头，更稳定，推荐使用。" />
@@ -460,6 +445,11 @@ const videosRateLimitCooldownHours = createCooldownHours(
   DEFAULT_COOLDOWN_HOURS.videos
 )
 
+const browserModeOptions = [
+  { label: '正常 - 显示窗口', value: 'normal' },
+  { label: '静默 - 最小化到任务栏', value: 'silent' },
+  { label: '无头 - 完全无窗口', value: 'headless' },
+]
 const browserEngineOptions = [
   { label: 'DP - 支持无头/有头', value: 'dp' },
 ]
@@ -504,7 +494,7 @@ watch(settings, (value) => {
   next.basic.duckmail_base_url ||= 'https://api.duckmail.sbs'
   next.basic.duckmail_verify_ssl = next.basic.duckmail_verify_ssl ?? true
   next.basic.browser_engine = next.basic.browser_engine || 'dp'
-  next.basic.browser_headless = next.basic.browser_headless ?? false
+  next.basic.browser_mode = next.basic.browser_mode || 'normal'
   next.basic.refresh_window_hours = Number.isFinite(next.basic.refresh_window_hours)
     ? next.basic.refresh_window_hours
     : 1

@@ -146,6 +146,18 @@
         <div ref="modelRankChartRef" class="h-56 w-full"></div>
       </div>
     </section>
+
+    <!-- 节点统计图表 -->
+    <section class="grid grid-cols-1 gap-4 lg:grid-cols-2">
+      <div class="rounded-3xl border border-border bg-card p-5">
+        <p class="text-sm font-medium text-foreground mb-4">节点成功率统计</p>
+        <div ref="nodeStatsChartRef" class="h-72 w-full"></div>
+      </div>
+      <div class="rounded-3xl border border-border bg-card p-5">
+        <p class="text-sm font-medium text-foreground mb-4">失败类型分布</p>
+        <div ref="failureTypeChartRef" class="h-72 w-full"></div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -272,6 +284,8 @@ const successRateChartRef = ref<HTMLDivElement | null>(null)
 const hourlyRequestsChartRef = ref<HTMLDivElement | null>(null)
 const modelRankChartRef = ref<HTMLDivElement | null>(null)
 const responseTimeChartRef = ref<HTMLDivElement | null>(null)
+const nodeStatsChartRef = ref<HTMLDivElement | null>(null)
+const failureTypeChartRef = ref<HTMLDivElement | null>(null)
 
 const charts = {
   trend: null as ChartInstance | null,
@@ -313,6 +327,10 @@ onMounted(async () => {
   initChart(hourlyRequestsChartRef.value, 'hourlyRequests', updateHourlyRequestsChart)
   initChart(modelRankChartRef.value, 'modelRank', updateModelRankChart)
   initChart(responseTimeChartRef.value, 'responseTime', updateResponseTimeChart)
+
+  // 初始化节点统计图表
+  initNodeStatsCharts()
+
   window.addEventListener('resize', handleResize)
 })
 
@@ -889,6 +907,49 @@ function updateResponseTimeChart() {
   })
 
   requestAnimationFrame(() => charts.responseTime?.resize())
+}
+
+// 节点统计图表初始化
+async function initNodeStatsCharts() {
+  try {
+    const res = await fetch('/api/admin/nodes/stats')
+    const stats = await res.json()
+
+    if (!nodeStatsChartRef.value || !failureTypeChartRef.value) return
+
+    const { default: echarts } = await import('echarts')
+
+    const nodes = Object.keys(stats)
+    const chart1 = echarts.init(nodeStatsChartRef.value)
+    chart1.setOption({
+      tooltip: { trigger: 'axis' },
+      legend: { data: ['成功', '风控', '其他'] },
+      xAxis: { type: 'category', data: nodes },
+      yAxis: { type: 'value' },
+      series: [
+        { name: '成功', type: 'bar', data: nodes.map(n => stats[n]?.success || 0), itemStyle: { color: '#10b981' } },
+        { name: '风控', type: 'bar', data: nodes.map(n => stats[n]?.risk_control || 0), itemStyle: { color: '#f59e0b' } },
+        { name: '其他', type: 'bar', data: nodes.map(n => stats[n]?.other || 0), itemStyle: { color: '#ef4444' } }
+      ]
+    })
+
+    const chart2 = echarts.init(failureTypeChartRef.value)
+    const totalRisk = nodes.reduce((sum, n) => sum + (stats[n]?.risk_control || 0), 0)
+    const totalOther = nodes.reduce((sum, n) => sum + (stats[n]?.other || 0), 0)
+    chart2.setOption({
+      tooltip: { trigger: 'item' },
+      series: [{
+        type: 'pie',
+        radius: '60%',
+        data: [
+          { value: totalRisk, name: '风控', itemStyle: { color: '#f59e0b' } },
+          { value: totalOther, name: '其他失败', itemStyle: { color: '#ef4444' } }
+        ]
+      }]
+    })
+  } catch (e) {
+    console.error('加载节点统计失败:', e)
+  }
 }
 
 </script>

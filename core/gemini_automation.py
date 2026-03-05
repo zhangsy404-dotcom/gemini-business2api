@@ -58,13 +58,13 @@ class GeminiAutomation:
         self,
         user_agent: str = "",
         proxy: str = "",
-        headless: bool = True,
+        browser_mode: str = "normal",
         timeout: int = 60,
         log_callback=None,
     ) -> None:
         self.user_agent = user_agent or self._get_ua()
         self.proxy = proxy
-        self.headless = headless
+        self.browser_mode = browser_mode if browser_mode in ("normal", "silent", "headless") else "normal"
         self.timeout = timeout
         self.log_callback = log_callback
         self._page = None
@@ -139,21 +139,52 @@ class GeminiAutomation:
         if self.proxy:
             options.set_argument(f"--proxy-server={self.proxy}")
 
-        if self.headless:
-            # 使用新版无头模式，更接近真实浏览器
+        if self.browser_mode == "headless":
+            # 无头模式：完全无窗口
             options.set_argument("--headless=new")
             options.set_argument("--disable-gpu")
             options.set_argument("--no-first-run")
             options.set_argument("--disable-extensions")
-            # 反检测参数
             options.set_argument("--disable-infobars")
             options.set_argument("--enable-features=NetworkService,NetworkServiceInProcess")
+        elif self.browser_mode == "silent":
+            # 静默模式：窗口最小化到任务栏，不抢焦点
+            options.set_argument("--start-minimized")
+        # normal 模式：不添加额外参数，正常显示窗口
 
 
 
         options.auto_port()
         page = ChromiumPage(options)
         page.set.timeouts(self.timeout)
+
+        # 静默模式：启动后立即最小化窗口（Windows）
+        if self.browser_mode == "silent":
+            try:
+                import platform
+                if platform.system() == "Windows":
+                    import time
+                    import ctypes
+                    time.sleep(0.5)  # 等待窗口创建
+                    # 查找 Chrome 窗口并最小化
+                    user32 = ctypes.windll.user32
+                    hwnd = user32.FindWindowW(None, None)
+                    # 枚举所有窗口，找到 Chrome 窗口
+                    def enum_windows_callback(hwnd, _):
+                        if user32.IsWindowVisible(hwnd):
+                            length = user32.GetWindowTextLengthW(hwnd)
+                            if length > 0:
+                                buff = ctypes.create_unicode_buffer(length + 1)
+                                user32.GetWindowTextW(hwnd, buff, length + 1)
+                                title = buff.value
+                                if "Chrome" in title or "Chromium" in title:
+                                    # SW_MINIMIZE = 6, SW_SHOWMINIMIZED = 2
+                                    user32.ShowWindow(hwnd, 6)
+                        return True
+                    EnumWindowsProc = ctypes.WINFUNCTYPE(ctypes.c_bool, ctypes.c_void_p, ctypes.c_void_p)
+                    user32.EnumWindows(EnumWindowsProc(enum_windows_callback), 0)
+            except Exception:
+                pass
 
         # 最小化 JS 注入：只设置 window.chrome（不使用 Object.defineProperty，避免被 reCAPTCHA 检测）
         # 注意：DrissionPage 不像 Selenium 那样暴露 navigator.webdriver，无需额外隐藏
